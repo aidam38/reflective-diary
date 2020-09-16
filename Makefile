@@ -5,7 +5,8 @@ IMAGES=$(wildcard img/*)
 all: czech english deploy
 
 czech: 
-	cd czech && make
+	cd czech16 && make
+	cd czech20 && make
 
 english: 
 	cd english && make
